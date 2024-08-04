@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link, useLocation, useParams } from 'react-router-dom';
-import { getEmployee } from '../api/apiService';
+import { getEmployee } from '../api/employeeService';
 
 const EmployeeDetailPage = () => {
   const location = useLocation();
